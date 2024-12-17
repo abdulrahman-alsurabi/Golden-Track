@@ -1,0 +1,266 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.containers{
+    width: 100%;
+    height: 100%;
+}
+.header_line{
+    width:100%;
+    float: left;
+    background-color: #333;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture_back{
+    background: url('Picsart_22-05-05_22-54-51-574.jpg');
+    height: 530px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:inline-flex;
+}
+.whoe_are{
+    width: 580px;
+    height: 300px;
+    background-color: none;
+    margin-left: 90px;
+    margin-top: 130px;
+}
+.text_on_picture{
+    margin: 90px;
+    margin-top: 160px;
+    text-align: center;
+}
+.whoe{
+    font-size: 58px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.whoe2{
+    font-size: 29px;
+    color: #f1f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.whoe3{
+    font-size: 40px;
+    text-align: center;
+    color: #353434;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.whoe4{
+    text-align: center;
+    color: #5e5c5c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.pragraph{
+    width:800px;
+    background: none;
+    text-align: right;
+    line-height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    float: right;
+    margin-right: 260px;
+    font-size: 20px;
+    color: #5e5c5c;
+}
+.paragraphbox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: right;
+    color: #5e5c5c;
+    text-decoration: currentColor;
+}
+.trangle{
+    width: 60px;
+    height: 56px;
+    margin-bottom: -50px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 60px;
+    border-radius: 60px;
+    box-shadow: 0 0 0 3px #257EF2;
+    overflow: hidden;
+    float: right;
+    display:inline-flexbox; 
+}
+.trangle:hover{
+    animation: tranglehover 9s none; 
+    
+  
+}
+@keyframes tranglehover{
+    50%{width: 670px;}
+    100%{width: 60px;}
+}
+.linedrow{
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+.linedrow::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #287dfc ;
+    border-radius: 50%;
+    transform: translate(-1px,-4px);
+}
+.certificate{
+    margin: auto;
+    overflow: none;
+    background-attachment:scroll;
+    width: 450px;
+    overflow: hidden;
+    margin-left: 165px;
+}
+.certificate_ul{
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+    animation: certificate 3s ease-in-out infinite;
+    margin-top: 0px;
+    text-align: center;
+}
+.certificate_ul_li{
+    position: relative;
+    background-attachment:local;
+}
+@keyframes certificate{
+    50%{left: 0px;}
+    100%{left:-450px;}
+    150%{left:-900px;}
+    200%{left:-1350px;}
+
+
+}
+.infor_about_fasting{
+    width: 100%;
+    display:inline-block;
+    background: rgb(245, 243, 243);
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.infor_about_fasting-next{
+    width:800px;
+    background: none;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    float: right;
+    margin-right: 260px;
+    font-size: 20px;
+    color: #5e5c5c; 
+}
+.infor_about_fasting::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background:#004ec4 ;
+    border: 3px solid #004ec4;
+    border-radius: 50%;
+    transform: translate(1217px,110px);
+}
+.infor_about_fasting::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 680px;
+    background: #004ec4;
+    transform: translate(1240px,-870px)rotate(180deg);
+}
+.ul_line_design_text{
+    width: 50%;
+    background: none;
+    list-style: none;
+    margin-left: 540px;
+    margin-top: 250px;
+    margin-bottom: 130px;
+}
+.line_design_text{
+    margin-top: 70px;
+    text-align: right;
+    line-height: 25px;
+}
+.line_design_text::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background:#004ec4 ;
+    border: 3px solid #004ec4;
+    border-radius: 50%;
+    transform: translate(21px,11px);
+}
+.our_place_insanaa{
+    background-image: url('place_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    height: 500px;
+}
+.text_place{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 170px;
+    line-height: 30px;
+    text-align: center;
+    width: 540px;
+}
+.boxes{
+    width: 60%;
+    height: 10%;
+    background: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+.ul_boxes{
+    list-style: none;
+    display: inline-flex;
+   
+}
+.li_box_text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #302f2f;
+    background: rgba(192, 192, 192, 0.596) ;
+    filter: blur(4px);
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25px;
+}
+.li_box_text:hover{
+    filter: blur(0px);
+    background: none;
+    color: rgb(39, 39, 39);
+}
+.end_window_2{
+    background: #004ec4;
+    background-attachment: fixed;
+    display: flex;
+}
+.sersh_and_address_forpage_about{
+    background-color: #004ec4;
+    background-attachment: fixed;
+}
+
